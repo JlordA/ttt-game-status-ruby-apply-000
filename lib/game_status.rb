@@ -43,7 +43,7 @@ def over?(board)
   end
 end
 
-def winner(board) 
+def winner(board)
   if over?(board) && won?(board)
     true
   else
