@@ -28,11 +28,9 @@ end
 def draw?(board)
   #board.each do |slot|
     #binding.pry
-    if full?(board) && !(won?(board))
-      true
-    else
-      false
-    end
+  if full?(board) && !(won?(board))
+    true
+  else
+    false
   end
-end
 end
