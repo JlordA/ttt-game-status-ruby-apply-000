@@ -43,7 +43,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == "X"
+  if WIN_COMBINATIONS == "X"
     "X"
   elsif
     won?(board) == "O"
