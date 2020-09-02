@@ -44,11 +44,11 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) && (WIN_COMBINATIONS == "X")
-    "X"
+  if won?(board) == "X"
+    X
   elsif
-    won?(board) && (WIN_COMBINATIONS == "O")
-    "O"
+    won?(board) "O"
+    O
   else
   end
 end
