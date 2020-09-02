@@ -44,11 +44,7 @@ end
 
 def winner(board)
   binding.pry
-  if won?(board) == "X"
-    "X"
-  elsif
-    won?(board) == "O"
-    "O"
-  else
+  if combo = won?(board)
+    board[combo[0]]
   end
 end
