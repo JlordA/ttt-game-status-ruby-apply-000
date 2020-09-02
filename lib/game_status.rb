@@ -44,9 +44,11 @@ def over?(board)
 end
 
 def winner(board)
-  if over?(board) && won?(board)
-    true
+  if won?(board) && (WIN_COMBINATIONS == "X")
+    X
+  elsif
+    won?(board) && (WIN_COMBINATIONS == "O")
+    O
   else
-    false
   end
 end
